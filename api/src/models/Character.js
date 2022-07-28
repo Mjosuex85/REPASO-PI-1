@@ -12,8 +12,9 @@ module.exports = (sequelize) => {
     },  
     name: {
       type: DataTypes.STRING,
-      allowNull: false
-    },
+      allowNull: false,
+      unique: true,
+    },  
 
     status: {
       type: DataTypes.STRING,
@@ -42,6 +43,3 @@ module.exports = (sequelize) => {
 
   });
 };
-
-
-// status, species, gender, image
