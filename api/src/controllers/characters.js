@@ -12,7 +12,8 @@ const get_Api_Characters = async () => {
             status: c.status,
             gender: c.gender,
             image: c.image,
-            episode: c.episode
+            episode: c.episode,
+            species: c.species
         }
      })
 };
